@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct BadgeBackgroun: View {
+struct BadgeBackground: View {
     var body: some View {
         GeometryReader { geometry in
             Path { path in
@@ -58,6 +58,6 @@ struct BadgeBackgroun: View {
 
 struct BadgeBackgroun_Previews: PreviewProvider {
     static var previews: some View {
-        BadgeBackgroun()
+        BadgeBackground()
     }
 }
